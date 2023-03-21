@@ -1,0 +1,63 @@
+body {
+
+    display: flex; 
+    justify-content: center;
+    
+}
+
+p {
+    text-align: center;
+}
+
+.box {
+    display:none;
+    text-align: center;
+    background-color: black;
+    height:300px;
+    width: 600px;
+    color: white;
+    border-radius: 12px;
+    margin: 12px;
+    padding: 12px;
+}
+
+/* .............Using Media Query in CSS......... */
+
+@media screen and (min-width: 1441px) {
+    #box-1 {
+        display: block;
+        color: black;
+        background-color: aquamarine;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    #box-2 {
+        display: block;
+        background-color: green;
+        color: black;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    #box-3 {
+        display: block;
+        background-color: rgb(221, 146, 49);
+        color: black;
+    }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    #box-4 {
+        display: block;
+        background-color: aquamarine;
+        color: black;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #box-5 {
+        display: block;
+        background-color: brown;
+        color: black;
+    }
+}
+
