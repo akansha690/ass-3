@@ -6,86 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
-    <style>
-        body {
-
-            display: flex; 
-            justify-content: center;
-            
-        }
-
-        p {
-            text-align: center;
-        }
-
-        .box {
-            display:none;
-            text-align: center;
-            background-color: black;
-            height:300px;
-            width: 600px;
-            color: white;
-            border-radius: 12px;
-            margin: 12px;
-            padding: 12px;
-        }
-
-        @media screen and (min-width: 1441px) {
-            #box-1 {
-                display: block;
-                color: black;
-                background-color: aquamarine;
-            }
-        }
-
-        @media screen and (min-width: 1025px) and (max-width: 1440px) {
-            #box-2 {
-                display: block;
-                background-color: green;
-                color: black;
-            }
-        }
-        @media screen and (min-width: 769px) and (max-width: 1024px) {
-            #box-3 {
-                display: block;
-                background-color: rgb(221, 146, 49);
-                color: black;
-            }
-        }
-        @media screen and (min-width: 426px) and (max-width: 768px) {
-            #box-4 {
-                display: block;
-                background-color: aquamarine;
-                color: black;
-            }
-        }
-        @media screen and (max-width: 425px) {
-            #box-5 {
-                display: block;
-                background-color: brown;
-                color: black;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     
      
-    <div class="box" id="box-1"> Frame 1
+    <div class="box" id="box-1"> 
         <h1> This is a media query demo page</h1>
     </div> 
     </div>
-    <div class="box" id="box-2"> Frame 2 <h1>This is a media query demo page</h1>
+    <div class="box" id="box-2"> <h1>This is a media query demo page</h1>
         <p>Screen size 1440px </p>
     </div>
-    <div class="box" id="box-3"> Frame 3 <h1> This is a media query demo page</h1> 
+    <div class="box" id="box-3">  <h1> This is a media query demo page</h1> 
         <p>Screen size 1024px </p>
     </div>
-    <div class="box" id="box-4"> Frame 4 <h1>This is a media query demo page</h1>
+    <div class="box" id="box-4">  <h1>This is a media query demo page</h1>
         <p>Screen size 768px</p>
     </div>
-    <div class="box" id="box-5"> Frame 5 <h1>This is a media query demo page</h1>
+    <div class="box" id="box-5"> <h1>This is a media query demo page</h1>
         <p>Screen size 425px</p>
     </div>
 
